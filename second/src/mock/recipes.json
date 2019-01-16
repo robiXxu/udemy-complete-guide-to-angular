@@ -2,26 +2,26 @@
   {
     "name": "A example recipe",
     "description": "A example description",
-    "imagePath": "https://via.placeholder.com/300x150"
+    "imagePath": "https://via.placeholder.com/150x100"
   },
   {
     "name": "A example recipe 2",
     "description": "A example description 2",
-    "imagePath": "https://via.placeholder.com/300x150"
+    "imagePath": "https://via.placeholder.com/150x100"
   },
   {
     "name": "A example recipe 3",
     "description": "A example description 3",
-    "imagePath": "https://via.placeholder.com/300x150"
+    "imagePath": "https://via.placeholder.com/150x100"
   },
   {
     "name": "A example recipe 4",
     "description": "A example description 4",
-    "imagePath": "https://via.placeholder.com/300x150"
+    "imagePath": "https://via.placeholder.com/150x100"
   },
   {
     "name": "A example recipe 5",
     "description": "A example description 5",
-    "imagePath": "https://via.placeholder.com/300x150"
+    "imagePath": "https://via.placeholder.com/150x100"
   }
 ]

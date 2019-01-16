@@ -10,9 +10,7 @@ import * as recipesData from 'src/mock/recipes.json';
 export class RecipeListComponent implements OnInit {
   recipes: Array<Recipe> = recipesData.map(r => new Recipe({...r}));
    
-  constructor() {
-    console.log(this.recipes);
-  }
+  constructor() {  }
 
   ngOnInit() {
   }
