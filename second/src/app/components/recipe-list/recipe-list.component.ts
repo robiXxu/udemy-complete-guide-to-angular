@@ -8,9 +8,11 @@ import * as recipesData from 'src/mock/recipes.json';
   styleUrls: ['./recipe-list.component.css']
 })
 export class RecipeListComponent implements OnInit {
-  recipes: Array<Recipe> = [];
+  recipes: Array<Recipe> = recipesData.map(r => new Recipe({...r}));
    
-  constructor() { }
+  constructor() {
+    console.log(this.recipes);
+  }
 
   ngOnInit() {
   }
