@@ -9,7 +9,6 @@ export class AppComponent {
   serverElements: Array<Server> = [];
 
   onServerAdded(server: Server) {
-    console.log(server);
     this.serverElements.push(server);
   }
 }
