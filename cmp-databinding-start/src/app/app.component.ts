@@ -11,4 +11,12 @@ export class AppComponent {
   onServerAdded(server: Server) {
     this.serverElements.push(server);
   }
+  changeFirstEl() {
+    if( this.serverElements.length === 0 ) return;
+    this.serverElements[0].serverName = "Changed!!"; 
+  }
+  removeFirstEl(){
+    if( this.serverElements.length === 0 ) return;
+    this.serverElements.splice(0,1);
+  }
 }
